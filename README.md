@@ -15,6 +15,7 @@ curl -X GET 'http://<ip-nplus-gateway>:8081/api/6/http/keyvals/allowlist_zone'
 #### Populate the key-value store:
 
 `curl -d '{"<ip-local-machine>": "0"}' http://<ip-nplus-gateway>:8081/api/6/http/keyvals/allowlist_zone`
+  
   example: curl -d '{"10.0.0.246": "0"}' http://localhost:8081/api/6/http/keyvals/allowlist_zone
   
 curl -X GET 'http://<ip-nplus-gateway>:8081/api/6/http/keyvals/allowlist_zone'
